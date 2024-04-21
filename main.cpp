@@ -4,6 +4,7 @@ MIT License
 Copyright (c) [2024] 
 Organization: Perlatecnica APS ETS
 Author: Mauro D'Angelo
+Example to use the LSM6DSV16X 6D Orientation
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -25,7 +26,7 @@ SOFTWARE.
 */
 
 #include "mbed.h"
-#include "LSM6DSV16X.h"
+#include "plt_iks4a1.h"
 
 LSM6DSV16X lsm6dsv16x(I2C_SDA, I2C_SCL); 
 Serial pc(USBTX, USBRX);
